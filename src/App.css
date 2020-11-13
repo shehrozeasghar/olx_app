@@ -1,4 +1,32 @@
-.App {
+:root{
+  --mainBlue:#0a4d95;
+  --lightBlue: #1b8ae6;
+  --mainWhite: #f7f6f1;
+  --mainDark: #2C3E50;
+  --mainYellow: #F4D03F;
+}
+
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background: var(--mainWhite) !important ;
+  color: var(--mainDark) !important ;
+}
+
+.text-title{
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-bright{
+  color: var(--lightBlue);
+}
+/* Default one */
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +63,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
